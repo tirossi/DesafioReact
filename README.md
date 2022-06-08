@@ -14,7 +14,9 @@ O candidato deverá criar um site simples interno para uma loja, no qual será p
 
 ### API
 
-URL: https://6288144910e93797c1564f40.mockapi.io/api/v1/
+URL da API: https://6288144910e93797c1564f40.mockapi.io/api/v1/
+
+#### Endpoints
 
 ``GET /api/v1/product``
 Retorna todos os produtos em lista
@@ -80,3 +82,10 @@ Figma: https://www.figma.com/file/STYAKoB2qCgQiNIKvSgxJB/Desafio-Khipo-(Copy)?no
 
 #### ``Importante``: É necessário fazer os valores dos styles baseados nos valores do Figma, além de responsivos. Também é importante componentizar e fazer um código legível.
 
+## Pontos Extras
+Esses pontos não são obrigatórios, mas agregariam muito ao projeto
+
+- [ ] Utilizar Redux ou outra lib de State Management
+- [ ] Toasts de sucesso e erro
+- [ ] Responsividade funcionando em Mobile
+- [ ] Deploy em alguma plataforma, como Netlify
