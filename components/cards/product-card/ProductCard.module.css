@@ -1,0 +1,57 @@
+.container {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin: 0 10px 35px 10px;
+  max-height: 325px;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productText {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.productPrice {
+  font-size: 28px;
+  padding: 0;
+  margin: 12px 0 41px 0;
+}
+
+.imageWrapper {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.modalInput {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.updateLink {
+  color: #CE7C01;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-decoration-line: underline;
+  background: none;
+  border: none;
+}
+
+.deleteLink {
+  padding: 0;
+  margin: 0;
+  color: #CE0101;
+  cursor: pointer;
+  text-decoration-line: underline;
+  background: none;
+  border: none;
+}

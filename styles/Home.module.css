@@ -3,13 +3,13 @@
 }
 
 .main {
-  min-height: 100vh;
+  height: calc(100vh - 74px);
+  flex-wrap: wrap;
   padding: 4rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .footer {
@@ -106,6 +106,25 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.addProduct {
+  margin-left: 45px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #510083;
+  text-decoration-line: underline;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.modalInput {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
 }
 
 @media (max-width: 600px) {
