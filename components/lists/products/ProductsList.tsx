@@ -25,6 +25,7 @@ const ProductsList: React.FC<IProductsList> = () => {
     <>
       {data.map((item: Data) => (
         <ProductCard
+          key={item.id}
           imageSrc={item.image}
           name={item.name}
           brand={item.brand}
